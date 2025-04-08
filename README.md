@@ -18,19 +18,25 @@ Follow these steps to set up and run the project:
 
 Clone the project to your local machine:
 
+```bash
 git clone https://github.com/yourusername/AutomatedTestNG.git
+```
 
 ### 2. Navigate to the Project Directory
 
 Go to the project directory:
 
+```bash
 cd AutomatedTestNG
+```
 
 ### 3. Install Dependencies
 
 Make sure all the required dependencies are downloaded by Maven:
 
+```bash
 mvn clean install
+```
 
 This will download and install all the necessary dependencies mentioned in the `pom.xml`.
 
@@ -38,7 +44,9 @@ This will download and install all the necessary dependencies mentioned in the `
 
 To run the tests using Maven, execute the following command:
 
+```bash
 mvn test
+```
 
 Maven will compile the project and run the tests defined in the `src/test/java` directory using the TestNG framework.
 
@@ -62,7 +70,7 @@ You can check the following report files:
 You should see a detailed report with information about which tests passed, failed, or were skipped, including stack traces for failed tests.
 
 ## Project Structure
-
+```bash
 AutomatedTestNG/
 ├── src/
 │    ├── main/
@@ -79,7 +87,7 @@ AutomatedTestNG/
 │    └── surefire-reports/              # TestNG test results and reports
 ├── pom.xml                            # Maven project configuration file
 └── README.md                          # Project README
-
+```
 ### TestNG Annotations Used
 
 - @Test: Marks a method as a TestNG test method.
@@ -92,6 +100,7 @@ AutomatedTestNG/
 
 Here's a sample test case in SampleTest.java:
 
+```java
 package com.automation;
 
 import org.testng.annotations.Test;
@@ -108,6 +117,7 @@ public class SampleTest {
         System.out.println("Running test method 2");
     }
 }
+```
 
 This file contains two simple test methods that will print messages when executed.
 
