@@ -19,7 +19,7 @@ Follow these steps to set up and run the project:
 Clone the project to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/AutomatedTestNG.git
+git clone https://github.com/swatikucc/AutomatedTestNG
 ```
 
 ### 2. Navigate to the Project Directory
