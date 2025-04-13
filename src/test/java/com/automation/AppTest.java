@@ -22,7 +22,7 @@ public class AppTest {
     // Test Case 3: Test if the number is even
     @Test
     public void testIsEven() {
-        Assert.assertTrue(app.isEven(4), "4 should be even");
+        Assert.assertTrue(app.isEven(9), "4 should be even");
         Assert.assertFalse(app.isEven(5), "5 should not be even");
     }
     @Test
