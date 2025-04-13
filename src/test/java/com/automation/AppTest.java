@@ -25,6 +25,12 @@ public class AppTest {
         Assert.assertTrue(app.isEven(4), "4 should be even");
         Assert.assertFalse(app.isEven(5), "5 should not be even");
     }
+    @Test
+    public void testIsEvenAgain() {
+        Assert.assertTrue(app.isEven(10), "10 should be even");
+        Assert.assertFalse(app.isEven(11), "11 should not be even");
+
+    }
 
     // Test Case 4: Test valid email validation
     @Test
