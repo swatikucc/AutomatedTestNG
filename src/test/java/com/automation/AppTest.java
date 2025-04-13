@@ -29,7 +29,7 @@ public class AppTest {
     public void testIsEvenAgain() {
         Assert.assertTrue(app.isEven(10), "10 should be even");
         Assert.assertFalse(app.isEven(11), "11 should not be even");
-
+        Assert.assertFalse(app.isEven(13), "13 should not be even");
     }
 
     // Test Case 4: Test valid email validation
